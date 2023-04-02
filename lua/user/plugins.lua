@@ -92,6 +92,17 @@ return packer.startup(function(use)
 	-- Git
 	use { "lewis6991/gitsigns.nvim", commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2" }
 
+  -- My plugins
+  use 'mattn/emmet-vim'
+  use 'https://github.com/ap/vim-css-color'
+  use 'p00f/nvim-ts-rainbow'
+
+  -- Colorschemes
+  use 'mhartington/oceanic-next'
+  use 'bluz71/vim-nightfly-colors'
+  use 'ray-x/aurora'
+
+
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then

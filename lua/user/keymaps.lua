@@ -18,6 +18,10 @@ vim.g.maplocalleader = " "
 --   term_mode = "t",
 --   command_mode = "c",
 
+
+-- turn off search highlight
+keymap("", ",<space>", ":nohlsearch<CR>", opts)
+keymap("", "x", ":Bdelete<CR>", opts)
 -- Normal --
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
