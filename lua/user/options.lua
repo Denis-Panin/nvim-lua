@@ -48,3 +48,6 @@ vim.opt.iskeyword:append "-"                           -- hyphenated words recog
 vim.opt.formatoptions:remove({ "c", "r", "o" })        -- don't insert the current comment leader automatically for auto-wrapping comments using 'textwidth', hitting <Enter> in insert mode, or hitting 'o' or 'O' in normal mode.
 vim.opt.runtimepath:remove("/usr/share/vim/vimfiles")  -- separate vim plugins from neovim in case vim still in use
 
+vim.cmd([[autocmd FileType python set colorcolumn=79]])
+-- vim.cmd([[0, "ColorColumn", { ctermbg=0, bg=red }]])
+-- vim.api.nvim_set_hl(0, "ColorColumn", { ctermbg=0, bg=LightGrey })
