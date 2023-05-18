@@ -17,13 +17,13 @@ end
 
 --   פּ ﯟ   some other good icons
 local kind_icons = {
-  Text = "",
+  Text = "󰊄",
   Method = "m",
-  Function = "",
+  Function = "󰡱",
   Constructor = "",
   Field = "",
-  Variable = "",
-  Class = "",
+  Variable = "󰫧",
+  Class = "",
   Interface = "",
   Module = "",
   Property = "",
@@ -32,15 +32,15 @@ local kind_icons = {
   Enum = "",
   Keyword = "",
   Snippet = "",
-  Color = "",
-  File = "",
+  Color = "",
+  File = "",
   Reference = "",
-  Folder = "",
+  Folder = "",
   EnumMember = "",
-  Constant = "",
+  Constant = "",
   Struct = "",
   Event = "",
-  Operator = "",
+  Operator = "",
   TypeParameter = "",
 }
 -- find more here: https://www.nerdfonts.com/cheat-sheet
